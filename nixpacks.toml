@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ['python3.12-python-zbar']
+
+[phase.name]
+  aptPkgs = ['libzbar-dev libzbar0 zbar-tools']
