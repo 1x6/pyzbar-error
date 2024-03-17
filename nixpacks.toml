@@ -1,6 +1,4 @@
 
 [phases.setup]
 aptPkgs = ['libzbar-dev', 'libzbar0', 'zbar-tools']
-
-[phases.install]
 nixPkgs = ['python311Packages.pyzbar']
